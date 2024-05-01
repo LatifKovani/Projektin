@@ -76,16 +76,16 @@ dl{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#submit-form{
+#Kontakti{
     background-color: #C6DCBA;
     margin: 50px;
     border-radius: 10px;
     width: auto;
 }
-#submit-form{
+#Kontakti{
     padding: 10px 15px 0 15px ;
 }
-#submit-form > table{
+#Kontakti > table{
     background-color: #C6DCBA;
     margin: 0 auto;
     border-collapse: separate;
@@ -137,26 +137,36 @@ textarea{
     border-spacing: 50px;
     background-color: #C6DCBA;
 }
-.up-ul{
-    padding: 5px 0 0px 0;
+footer{
+    background-color: #4F6F52;
+    padding-top: 0;
 }
-#left-lists{
-    text-align: center;
-    display: inline;
-}
-#right-lists{
-    text-align: center;
-    display: inline;
-}
-
 summary{
-    background-color: #4F6F52;
-    padding-left: 650px;
-    padding-top: 5px;
-    font-size: 25px;
+    font-size: 20px;
+    color: #eeee;
 }
-.footer-bottom{
+.table1{
+    margin: 10px 0px 0px 450px;
+    padding: 0;
     background-color: #4F6F52;
+    border-spacing: 0px 0px;
+}
+.row-lists{
+    background-color: #4F6F52;
+}
+.data-lists{
+    width: 350px;
+    padding: 0;
+}
+.data-summary{
+    padding-bottom: 60px;
+    padding-right: 60px;
+}
+.li-edit{
+    display: block;
+    color: #eeee;
+    font-size: 18px;
+    text-align: left;
 }
 #paragraph{
     text-align: center;
