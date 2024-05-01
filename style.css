@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .editHeader{
@@ -27,7 +28,7 @@ a{
     color: white;
 }
 
-.div1{
+.Parfumat{
     margin: 30px;
 }
 
@@ -38,7 +39,6 @@ table{
     padding: 40px;
     background-color: #D8D9DA;
     border-radius: 10px;
-
 }
 
 th{
@@ -46,8 +46,6 @@ th{
     padding-left: 0px;
     background-color: #D8D9DA;
     font-size: 20px;
-    font-family: sans-serif;
-
 }
 
 tr{
@@ -67,13 +65,11 @@ img{
 p{
     font-size: 16px;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 dl{
     font-size: 16px;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #Kontakti{
@@ -81,10 +77,9 @@ dl{
     margin: 50px;
     border-radius: 10px;
     width: auto;
+    padding: 10px 15px 0 15px;
 }
-#Kontakti{
-    padding: 10px 15px 0 15px ;
-}
+
 #Kontakti > table{
     background-color: #C6DCBA;
     margin: 0 auto;
@@ -92,10 +87,12 @@ dl{
     border-spacing: 40px;
     padding: 0%;
 }
+
 form{
     background-color: #4F6F52;
     padding: 50px;
 }
+
 .input-box{
     padding: 10px;
 }
@@ -107,18 +104,23 @@ form{
     border: 2px solid #eeee;
     background-color: #4F6F52;
 }
+
 textarea{
     background-color: #4F6F52;
     border: 2px solid #eeee;
 }
+
 #email{
     width: 300px;
     height: 100px;
     border-radius: 10px;
 }
+
 ::placeholder{
     color:white;
+    padding: 7px;
 }
+
 #submitButton{
     background-color: #4F6F52;
     color: white;
@@ -128,46 +130,57 @@ textarea{
     width: 100%;
     height: 40px;
 }
+
 #submitButton:hover{
     background-color: #A9A9A9;
     opacity: 1;
     border: none;
 }
+
 #iframe{
     border-spacing: 50px;
     background-color: #C6DCBA;
 }
+
 footer{
     background-color: #4F6F52;
     padding-top: 0;
+    font-family: sans-serif;
 }
-summary{
-    font-size: 20px;
-    color: #eeee;
-}
+
 .table1{
     margin: 10px 0px 0px 450px;
     padding: 0;
     background-color: #4F6F52;
     border-spacing: 0px 0px;
 }
+
 .row-lists{
     background-color: #4F6F52;
 }
-.data-lists{
-    width: 350px;
-    padding: 0;
-}
+
 .data-summary{
     padding-bottom: 60px;
     padding-right: 60px;
 }
+
+summary{
+    font-size: 20px;
+    color: #eeee;
+}
+
+.data-lists{
+    width: 350px;
+    padding: 0;
+}
+
 .li-edit{
     display: block;
     color: #eeee;
     font-size: 18px;
     text-align: left;
 }
+
 #paragraph{
     text-align: center;
 }
