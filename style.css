@@ -88,6 +88,11 @@ dl{
     padding: 0%;
 }
 
+h2{
+    font-size: 30px;
+    padding: 20px;
+}
+
 form{
     background-color: #4F6F52;
     padding: 50px;
@@ -184,3 +189,5 @@ summary{
 #paragraph{
     text-align: center;
 }
+style="border:0; filter: grayscale(100%) invert(92%) contrast(83%);
+
