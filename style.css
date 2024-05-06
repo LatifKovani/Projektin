@@ -45,7 +45,7 @@ a{
     border-collapse: separate;
     margin: 60px auto;
     border-spacing: 45px 30px;
-    padding: 40px;
+    padding: 30px;
     background-color: #D8D9DA;
     border-radius: 10px;
     width: 90%;
@@ -86,99 +86,85 @@ p{
 }
 
 .cart-btn{
-    background-color: #A8A196;
+    background-color: gray;
+    color: #D0D4CA;
     border-radius: 10px;
     padding: 5px;
-    border: 1;
+    border: 2px solid #D0D4CA;
     margin: 20px auto;
     cursor: pointer;
 }
 
 .cart-btn:hover{
-    background-color: #C6DCBA;
-    border: black;
+    border: none;
     opacity: 1;
 }
 
-.Kontakti{
-    margin: 0 auto;
-    width: 100%;
-    padding: 80px;
-}   
-
-.table-kontakt{
-    width: 100%;
+.kontakt-section{
     background-color: #C6DCBA;
+    width: 90%;
     margin: 0 auto;
-    border-collapse: separate;
-    border-spacing: 80px 20px;
     border-radius: 10px;
 }
 
-.form-header{
-    font-size: 30px;
+.kontakt-container{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
     background-color: #C6DCBA;
 }
 
-.data-form{
-    background-color: #C6DCBA;
-
-}
-
-form{
+.form{
+    display: flex;
+    width: 500px;
     background-color: #4F6F52;
-    padding: 50px;
-}
-
-.input-box{
     padding: 10px;
+    padding-bottom: 0;
+    margin: 30px
+}
+
+.kontakt-left{
     width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
 }
-
-.input{
-    width: 300px;
-    height: 50px;
+.kontakt-input{
+    padding: 10px;
     border-radius: 10px;
     border: 2px solid #eeee;
+    width: 100%;
     background-color: #4F6F52;
 }
 
-textarea{
+.kontakti-input{
     background-color: #4F6F52;
+    padding: 5px 0px 80px 5px;
+    width: 100%;
     border: 2px solid #eeee;
-}
-
-#email{
-    width: 300px;
-    height: 100px;
     border-radius: 10px;
+}
+.sub-btn{
+    background-color: #4F6F52;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #eeee;
+    width: 100%;color: #eeee;
+    cursor: pointer;
 }
 
 ::placeholder{
-    color:white;
-    padding: 7px;
+    color: #eeee
 }
 
-#submitButton{
-    background-color: #4F6F52;
-    color: white;
-    border-radius: 10px;
-    border: 2px solid #eeee;
-    text-align: center;
-    width: 100%;
-    height: 40px;
-}
-
-#submitButton:hover{
-    background-color: #A9A9A9;
-    opacity: 1;
-    border: none;
-}
-
-#iframe{
-    border-spacing: 50px;
-    background-color: #C6DCBA;
-    padding-right: 150px;
+iframe{
+    padding: 30px;
 }
 
 footer{
