@@ -101,6 +101,9 @@ audio{
     padding-top: 30px;
     margin-top: 0px;
 }
+audio::-webkit-media-controls-panel{
+    background-color: #red;
+}
 
 img{
     width: 35%;
@@ -117,7 +120,7 @@ p{
 button{
     background-color: #D8D9DA;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
     border: 2px solid #A9A9A9;
     margin: 20px auto;
     cursor: pointer;
