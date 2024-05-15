@@ -217,12 +217,13 @@ footer{
     font-size: 18px;
 }
 .links{
-    padding: 0;
+    padding: 0px;
 }
 
 .li-edit{
     font-size: 18px;
 }
 #copyright{
+    padding: 0px;
     text-align: center;
 }
