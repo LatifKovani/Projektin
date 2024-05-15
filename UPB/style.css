@@ -90,7 +90,7 @@ tr{
 
 td{
     border-radius: 10px;
-    padding-top: 30px;
+    padding-top: 0px;
 }
 
 audio{
@@ -107,6 +107,7 @@ img{
 }
 
 p{
+    padding-top: 30px;
     font-size: 16px;
     text-align: left;
 }
