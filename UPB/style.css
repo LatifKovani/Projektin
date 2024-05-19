@@ -198,7 +198,7 @@ footer{
 
 .footer-table{
     width: 100%;
-    padding: 0px 100px;
+    padding: 0px ;
     background-color: #4F6F52;
 }
 
@@ -207,8 +207,8 @@ footer{
 }
 
 .ref{
-    padding: 0px;
-    width: 150px;
+    padding-bottom: 50px;
+    width: 140px;
 }
 
 #paragraf{
@@ -216,13 +216,11 @@ footer{
     color: white;
     font-size: 18px;
 }
-.links{
-    padding: 0px;
-}
 
 .li-edit{
     font-size: 18px;
 }
+
 #copyright{
     padding: 0px;
     text-align: center;
